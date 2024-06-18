@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body {
+    font-family: 'Montserrart',Arial, sans-serif;
+    margin: 0;
+    background: #f6f5f7;
+    margin: 0;
+    scroll-behavior: smooth;
+    color: #3e363f;
+    padding-top: 70px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+.menu_item {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+  }
+  .menu_item:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+ #acerca_de_mi{
+    text-align: justify;
+ }  
+ #Habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #Habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  #Habilidades ul li:hover{
+    background-color: #ddd;
+    transition: all 0.4s ease-in-out;
+  }
+
+
+  #Experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #Experiencia ul li {
+    margin-bottom: 10px;
+  }
+  #Proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #Proyectos ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #Proyectos ul li a:hover {
+    text-decoration: underline;
+  }
+  #sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .fa {
+    color: #333;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+  
+  
