@@ -112,3 +112,34 @@ nav {
     text-align: center;
     padding: 10px;
   }
+  
+  
+#Contacto form {
+  margin: 0 auto;
+  width: 500px;
+}
+
+#Contacto form input,
+#Contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+#Contacto form textarea {
+    height: 100px;
+}
+
+#Contacto form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+div{
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  
+}

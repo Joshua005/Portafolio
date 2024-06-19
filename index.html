@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Mi portafolio personal</title>
         <link rel="stylesheet" href="./style.css" />
         
@@ -22,8 +24,12 @@
         </header>
         <main>
             <section id="acerca_de_mi">
-            <h2>Acerca de mi </h2>
-            <p>hola como estas</p>
+                <h2>Acerca de mi </h2>
+                <p>Estudiante de la carrera de ingeniria informatica en la Universidad Nacional de Itapua ademas como desarrollador web junior, fusiono mi pasión por el diseño y la
+                    programación para crear experiencias web excepcionales. Me esfuerzo por
+                    cada línea de código y cada detalle de diseño para asegurarme de que mis
+                    sitios web sean visualmente atractivos, funcionales y accesibles para
+                    todos. </p>
             </section>
             <section id="Habilidades">
                 <h2>Habilidades</h2>
@@ -70,10 +76,24 @@
                             Descripcion generica
                         </p>
                     </li>
+                    <li>
+                        <h3>JuegoCLI </h3>
+                        <a href="https://github.com/Joshua005/JuegoCLI"> Juego</a>
+                        <p> Juego en linea de comando en java</p>
+                    </li>
                 </ul>
             </section>
             <section id="Contacto">
-                <h2>Contacto</h2>
+                <div class="contact-form">
+                    <h2>Contacto</h2>
+                    <p>Si tienes alguna pregunta o quieres contactarme, puedes hacerlo a través del siguiente formulario:</p>
+                    <form action="#" method="post">
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                        <input type="email" name="email" placeholder="Correo electrónico" required>
+                        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
                 <ul>
                     <li>Email: josueflorentin7@gmial.com </li>
                     <li>Teléfono: +595971391561</li>
